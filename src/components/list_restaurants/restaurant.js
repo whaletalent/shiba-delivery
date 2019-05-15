@@ -19,10 +19,10 @@ const Restaurant = (props) => (
             <span class="dashed_box">Entrega ${props.delivery_tax}</span>
           </Column>
           <Column size={3} id="reviews">
-            <Icon size="medium" color="warning">
+            <Icon size="medium" color="custom-orange">
               <FaStar/>
             </Icon>
-            <span class="has-text-warning has-text-weight-bold">{props.review || 0}</span>
+            <span class="has-text-custom-orange has-text-weight-bold">{props.review || 0}</span>
           </Column>
         </Column.Group>
       </Box>

@@ -25,5 +25,8 @@ div.top-navbar {
       flex-grow: 1;
       justify-content: center;
     }
+    .navbar-item:hover{
+      color: $custom-orange;
+    }
   }
 }

@@ -5,8 +5,12 @@ div.slider-item {
   padding-left: 20px;
   padding-top: 20px;
   text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: $custom-orange;
 }
  
 a{
   color: $custom-black;
+  
 }

@@ -5,6 +5,9 @@ html, body {
   flex: 1;
 }
  
-body {
+section, body {
   background-image: url('assets/images/bg.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: rgb(255, 250, 176);
 }
