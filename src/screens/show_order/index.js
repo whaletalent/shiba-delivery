@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Box, Column, Title } from "rbx";
-import WaitingImage from '../../assets/images/logo.png';
+import WaitingImage from '../../assets/images/endOrder.png';
 import "../../styles/show_order.scss";
  
 import { connect } from 'react-redux';
@@ -20,13 +20,14 @@ class ShowOrder extends Component {
           <Column.Group>
             <Column size={8} offset={2} textAlign="centered">
               <Box>         
+                <img src={WaitingImage} className="status_img" alt="new"/>
                   { 
                     (this.props.order.status == 'waiting') ? (
                       <Fragment>
                         <Title size={4} className="has-text-custom-orange status_msg">
-                          Pedido a caminho
+                          Pedido Efetuado
                         </Title>
-                        <p className="status_description">Em breve você recebera sua comida saudável em casa</p>
+                        <p className="status_description">Em breve, um Shiba entregador chegará em sua casa. Bom apetite e Volte Sempre!</p>
                       </Fragment>
                     ) : (
                       <Title size={4} className="has-text-custom-orange status_msg">
@@ -34,7 +35,6 @@ class ShowOrder extends Component {
                       </Title>
                     )
                   }
-                <img src={WaitingImage} className="status_img" alt="new"/>
               </Box>
             </Column>
           </Column.Group>

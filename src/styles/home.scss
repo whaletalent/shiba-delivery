@@ -1,8 +1,10 @@
 @import "custom_colors";
  
 #home {
-  margin-top: 20%;
- 
+  padding: 4em;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid $custom-gray;
   h1 {
     color: $custom-black;
   }
