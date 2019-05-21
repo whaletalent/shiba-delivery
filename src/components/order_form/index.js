@@ -55,7 +55,7 @@ class OrderForm extends Component {
                     <Control>
                       <Input 
                         type="text" 
-                        placeholder="Leonardo Scorza..."
+                        placeholder="Nome Completo..."
                         name="name"
                         value={this.state.name}
                         onChange={this.handleInputChange}
@@ -69,7 +69,7 @@ class OrderForm extends Component {
                     <Control>
                       <Input 
                         type="text" 
-                        placeholder='396.134.567-34'
+                        placeholder='000.000.000-00'
                         name="cpf"
                         value={this.state.cpf}
                         onChange={this.handleInputChange}
@@ -82,7 +82,7 @@ class OrderForm extends Component {
                     <Control>
                       <Input 
                         type="text" 
-                        placeholder='(19) 997095432'
+                        placeholder='(00) 0000-0000'
                         name="phone_number"
                         value={this.state.phone_number}
                         onChange={this.handleInputChange}

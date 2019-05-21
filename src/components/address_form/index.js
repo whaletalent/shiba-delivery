@@ -6,6 +6,7 @@ import { setAddress } from "../../actions/address";
 import { hideModal } from "../../actions/modal";
  
 import statesList from './states_list';
+import history from '../../history';
  
 class AddressForm extends Component {
  
@@ -39,6 +40,7 @@ class AddressForm extends Component {
     this.props.setAddress(this.state)
     this.props.hideModal('ADDRESS_MODAL')
     event.preventDefault();
+    history.push('/restaurants')
   }
  
   render() {
