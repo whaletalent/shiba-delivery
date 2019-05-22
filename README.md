@@ -2,7 +2,7 @@ Shiba-Delivery: MVP of food delivery
 Created with Bulma and React
 
 ## First, run server api and follow instructions located in:
-https://github.com/whaletalent/shiba-delivery-api
+[https://github.com/whaletalent/shiba-delivery-api](https://github.com/whaletalent/shiba-delivery-api)
 
 ## Run React in development mode
 ### `npm start`
@@ -15,3 +15,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## Heroku Demo:
+[https://shiba-delivery-client.herokuapp.com/](https://shiba-delivery-client.herokuapp.com/]
